@@ -1,18 +1,19 @@
 .form {
   height: 28px;
   display: flex;
-  gap: 12px;
-  width: 30vw;
+  /* gap: 12px; */
+  width: 40vw;
   align-items: center;
+  margin-top: 10px;
 }
 
 .input {
   display: block;
   height: 100%;
   width: 100%;
-  margin-left: 12px;
-  border: 1px solid #646cff;
-  border-radius: 8px;
+  /* margin-left: 12px; */
+  /* border: 1px solid #646cff;
+  border-radius: 8px; */
   padding-left: 12px;
 
   font-family: inherit;
@@ -24,6 +25,6 @@
   padding: 8px 12px;
   font-family: inherit;
   font-style: inherit;
-  font-size: inherit;
+  /* font-size: inherit; */
   margin: 0;
 }

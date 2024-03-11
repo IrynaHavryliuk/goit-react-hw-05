@@ -1,13 +1,16 @@
 .container {
-  border-bottom: 1px solid #646cff;
+  border-bottom: 2px solid rgb(155, 156, 177);
+  box-shadow: 5px 10px 18px rgb(219, 215, 215);
 }
 
 .list {
   display: flex;
   gap: 16px;
   list-style: none;
+  text-decoration: none;
 }
 
 :global(.active) {
-  color: orangered;
+  color: rgb(185, 16, 143);
+  /* text-decoration: none; */
 }
